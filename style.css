@@ -1,0 +1,29 @@
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+/*default state*/
+.progress .icon {
+    background: red;
+}
+
+.progress.state1 .icon {
+    background: red;
+}
+.progress.state2 .icon {
+    background: green;
+}
+.progress.state3 .icon {
+    background: blue;
+}
+
+.progress {
+    display: inline-block;
+}
+
+.col {
+    width: 300px;
+    display: inline-block;
+}
